@@ -1,0 +1,8 @@
+$colors:(
+    "body-background": rgb(255, 255, 255),
+);
+
+body{
+    margin: 0;
+    background-color: map-get($colors, "body-background");
+}
