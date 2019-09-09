@@ -1,8 +1,84 @@
-$colors:(
-    "body-background": rgb(255, 255, 255),
+$colors: (
+  "body-background": rgb(255, 255, 255)
 );
 
-body{
-    margin: 0;
-    background-color: map-get($colors, "body-background");
+body {
+  margin: 0;
+  background-color: map-get($colors, "body-background");
 }
+
+.header-container{
+    padding: 100px;
+    color: white;
+
+    h1{
+        font-size: 70px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    h4{
+        margin-bottom: 35px;
+        margin-left: 12px;
+    }
+
+    .header-hr{
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+        margin-left: 12px;
+        max-width: 500px;
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+    }
+}
+
+.header-links{
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 10px;
+    margin-left: 12px;
+
+    a{
+        color: white;
+        margin-right: 40px;
+    }
+}
+
+.nav-link {
+  text-transform: uppercase;
+  margin-right: 1.5rem;
+}
+
+.navbar, .navbar-collapse {
+  justify-content: end;
+}
+
+.navbar-dark .navbar-toggler {
+  border: none;
+}
+
+.navbar-static-top {
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+}
+
+// .nav-item::after{
+//     content: " ";
+//     display: block;
+//     position: relative;
+//     top: -19px;
+//     left: -3px;
+//     width:5px;
+//     height:2px;
+//     background:#fec400;
+//     opacity: 0;
+//     transition: 0.2s;
+
+//     &.active {
+//         opacity: 1;
+//     }
+// }
+// .nav-item:hover::after{
+//     opacity: 1;
+// }

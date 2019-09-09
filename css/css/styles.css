@@ -2,4 +2,69 @@ body {
   margin: 0;
   background-color: white;
 }
+
+.header-container {
+  padding: 100px;
+  color: white;
+}
+
+.header-container h1 {
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.header-container h4 {
+  margin-bottom: 35px;
+  margin-left: 12px;
+}
+
+.header-container .header-hr {
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  margin-left: 12px;
+  max-width: 500px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.header-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin-top: 10px;
+  margin-left: 12px;
+}
+
+.header-links a {
+  color: white;
+  margin-right: 40px;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  margin-right: 1.5rem;
+}
+
+.navbar, .navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.navbar-dark .navbar-toggler {
+  border: none;
+}
+
+.navbar-static-top {
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+}
 /*# sourceMappingURL=styles.css.map */
