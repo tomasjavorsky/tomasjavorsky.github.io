@@ -57,10 +57,13 @@ body {
   border: none;
 }
 
-.navbar-static-top {
-  position: absolute;
-  width: 100%;
-  z-index: 100;
+.section-margin{
+  margin-top: 2rem;
+}
+
+.section-image{
+  width: 200px;
+  height: 200px;
 }
 
 // .nav-item::after{
