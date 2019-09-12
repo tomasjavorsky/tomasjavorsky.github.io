@@ -62,6 +62,10 @@ body {
   border: none;
 }
 
+.section-hr {
+  border-top: 1px solid rgba(0, 0, 0, 0.35);
+}
+
 .section-margin {
   margin-top: 2rem;
 }
@@ -69,5 +73,10 @@ body {
 .section-image {
   width: 200px;
   height: 200px;
+}
+
+.skillset-icon {
+  width: 50px;
+  height: 50px;
 }
 /*# sourceMappingURL=styles.css.map */
