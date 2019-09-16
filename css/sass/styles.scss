@@ -77,8 +77,16 @@ body {
   height: 50px;
 }
 
+.skillset-button{
+  height: 50px;
+}
+
 .skillset-border-right{
   border-right: 1px solid rgba(0,0,0, 0.35);
+}
+
+@media screen and (min-width: 768px) {
+  
 }
 
 // .nav-item::after{
