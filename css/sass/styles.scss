@@ -81,8 +81,16 @@ body {
   height: 50px;
 }
 
-.skillset-border-right{
-  border-right: 1px solid rgba(0,0,0, 0.35);
+.skillset-border-left{
+  border-left: 1px solid rgba(0,0,0, 0.35);
+}
+
+.projects-hr{
+  border-top: 1px solid rgba(0,0,0, 0.35);
+}
+
+.projects-bg{
+  background-color: rgb(240, 240, 240)
 }
 
 @media screen and (min-width: 768px) {
