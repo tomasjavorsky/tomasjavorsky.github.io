@@ -78,6 +78,7 @@ body {
 .skillset-icon {
   width: 50px;
   height: 50px;
+  margin-right: 5px;
 }
 
 .skillset-button {
@@ -94,5 +95,34 @@ body {
 
 .projects-bg {
   background-color: #f0f0f0;
+}
+
+.projects-image {
+  margin: 10px;
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+}
+
+.projects-text {
+  text-align: center;
+}
+
+.projects-text-container p {
+  text-align: center;
+}
+
+.projects-buttons-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.projects-button {
+  margin-right: 10px;
 }
 /*# sourceMappingURL=styles.css.map */
