@@ -63,7 +63,7 @@ body {
 }
 
 .section-hr {
-  border-top: 1px solid rgba(0, 0, 0, 0.35);
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 .section-margin {
@@ -73,6 +73,10 @@ body {
 .section-image {
   width: 200px;
   height: 200px;
+}
+
+.section-bg {
+  background-color: whitesmoke;
 }
 
 .skillset-icon {
@@ -86,7 +90,7 @@ body {
 }
 
 .skillset-border-left {
-  border-left: 1px solid rgba(0, 0, 0, 0.35);
+  border-left: 1px solid rgba(0, 0, 0, 0.25);
 }
 
 .projects-hr {
@@ -120,9 +124,20 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 20px;
 }
 
 .projects-button {
   margin-right: 10px;
+}
+
+.projects-bottom-border {
+  border-bottom: none;
+}
+
+@media screen and (max-width: 768px) {
+  .projects-bottom-border {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  }
 }
 /*# sourceMappingURL=styles.css.map */
