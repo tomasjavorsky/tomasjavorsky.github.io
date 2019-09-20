@@ -143,22 +143,31 @@ body {
 
 // -------------------------------------------
 
+.backgroundEntryWrapper{
+  display: flex;
+  flex-direction: row;
+}
+
 .backgroundEntryContainer{
   display: flex;
   flex-direction: column;
+
+  p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  h4{
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
 }
 
-.backgroundHeader{
-}
-
-.backgroundEntry1::after{
-  content: " - Master";
-  font-size: 16px;
-}
-
-.backgroundEntryInstitution{
+.backgroundEntryDescription{
   color: rgb(77, 77, 77);
 }
+
+
 
 .backgroundEntryLocation{
   color: rgb(136, 136, 136);
@@ -187,6 +196,10 @@ body {
   .header-container{
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .backgroundEntryWrapper{
+    flex-direction: column;
   }
 }
 
