@@ -63,6 +63,26 @@ body {
   border: none;
 }
 
+.nav-item::after{
+  content: " ";
+  display: block;
+  position: relative;
+  top: -19px;
+  left: -3px;
+  width:5px;
+  height:2px;
+  background:#fec400;
+  opacity: 0;
+  transition: 0.2s;
+
+  &.active {
+      opacity: 1;
+  }
+}
+.nav-item:hover::after{
+  opacity: 1;
+}
+
 // -------------------------------------------
 
 .section-hr{
@@ -142,6 +162,11 @@ body {
 }
 
 // -------------------------------------------
+
+.backgroundText{
+  max-width: 500px;
+  padding-bottom: 40px;
+}
 
 .backgroundEntryWrapper{
   display: flex;
@@ -227,22 +252,4 @@ body {
 
 
 
-// .nav-item::after{
-//     content: " ";
-//     display: block;
-//     position: relative;
-//     top: -19px;
-//     left: -3px;
-//     width:5px;
-//     height:2px;
-//     background:#fec400;
-//     opacity: 0;
-//     transition: 0.2s;
 
-//     &.active {
-//         opacity: 1;
-//     }
-// }
-// .nav-item:hover::after{
-//     opacity: 1;
-// }
