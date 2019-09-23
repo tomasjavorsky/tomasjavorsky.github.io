@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: white;
+  background-color: whitesmoke;
 }
 
 .header-container {
@@ -99,7 +99,7 @@ nav .nav-link.active::after {
 }
 
 .section-bg {
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 .skillset-icon {
