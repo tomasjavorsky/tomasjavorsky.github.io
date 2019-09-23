@@ -70,7 +70,7 @@ body {
   left: -10px;
   width: 5px;
   height: 2px;
-  background: #ffffff;
+  background-color: white;
   opacity: 0;
   -webkit-transition: 0.2s;
   transition: 0.2s;
@@ -199,10 +199,11 @@ nav .nav-link.active::after {
   padding: 10px;
   border-top-right-radius: 7px;
   border-top-left-radius: 7px;
+  height: 110px;
 }
 
 .backgroundEntryDescription {
-  color: #555555;
+  color: #444444;
 }
 
 .backgroundEntryLocation {
@@ -214,13 +215,19 @@ nav .nav-link.active::after {
   display: block;
   width: 7px;
   height: 1px;
-  background-color: #555555;
+  background-color: white;
   position: relative;
   top: 14px;
   left: -15px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 975px) {
+  .backgroundEntryContainer h4 {
+    height: 170px;
+  }
+}
+
+@media screen and (max-width: 720px) {
   .projects-bottom-border {
     border-bottom: 1px solid rgba(0, 0, 0, 0.25);
   }

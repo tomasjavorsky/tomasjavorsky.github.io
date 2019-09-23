@@ -7,6 +7,17 @@ body {
   background-color: map-get($colors, "body-background");
 }
 
+// .sectionHeader:before{
+//   content: " ";
+//   display: block;
+//   position: relative;
+//   top: 23px;
+//   left: -16px;
+//   width: 8px;
+//   height:3px;
+//   background-color: black;
+// }
+
 // -------------------------------------------
 
 .header-container{
@@ -71,7 +82,7 @@ body {
   left: -10px;
   width:5px;
   height:2px;
-  background:#ffffff;
+  background-color: white;
   opacity: 0;
   transition: 0.2s;
 }
@@ -104,6 +115,7 @@ nav .nav-link.active::after{
 }
 
 // -------------------------------------------
+
 
 .skillset-icon{
   width: 50px;
@@ -195,11 +207,12 @@ nav .nav-link.active::after{
     padding: 10px;
     border-top-right-radius: 7px;
     border-top-left-radius: 7px;
+    height: 110px;
   }
 }
 
 .backgroundEntryDescription{
-  color: rgb(85, 85, 85);
+  color: rgb(68, 68, 68);
 }
 
 
@@ -213,17 +226,24 @@ nav .nav-link.active::after{
   display: block;
   width: 7px;
   height: 1px;
-  background-color: rgb(85, 85, 85);
+  background-color: rgb(255, 255, 255);
   position: relative;
   top: 14px;
   left: -15px;
-
 }
 
 // -------------------------------------------
 
+@media screen and (max-width: 975px) {
+  .backgroundEntryContainer{
+    h4{
+      height: 170px;
+    }
+  }
+}
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 720px) {
   .projects-bottom-border{
     border-bottom: 1px solid rgba(0,0,0, 0.25);
   }
